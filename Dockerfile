@@ -1,5 +1,3 @@
-FROM resin/raspberry-pi-node:onbuild
-# Enable systemd
-ENV INITSYSTEM on
+FROM node:4-onbuild
 # replace this with your application's default port
 EXPOSE 8081
